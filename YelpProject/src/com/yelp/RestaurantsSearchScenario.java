@@ -108,7 +108,7 @@ public class RestaurantsSearchScenario {
 		
 		
 		//First 3 Custmer Feedback/reviews
-		
+		System.out.print("saved");
 		System.out.println(driver.findElement(YelpLocators.CustomerReview1).getText());
 		System.out.println(driver.findElement(YelpLocators.CustomerReview2).getText());
 		System.out.println(driver.findElement(YelpLocators.CustomerReview3).getText());
