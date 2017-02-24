@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 public class YelpLocators {
 
 	/// this is a sample change 
+	//another commits
 			public static By FindRestaurants = By.id("find_desc");
 			public static By SearchIcon = By.id("header-search-submit"); 
 			public static By FindResults = By.xpath("//div[@data-component-bound='true']/span");
